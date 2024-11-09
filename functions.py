@@ -1,9 +1,4 @@
-# ============================================
-# Mario Party Toolkit
-# Author: Nayla Hanegan (naylahanegan@gmail.com)
-# Date: 2/21/2024
-# License: MIT
-# ============================================
+#Mario run
 
 import tkinter as tk
 import customtkinter as ctk
@@ -72,7 +67,7 @@ def get_capsule_value(capsule):
             return 0
         
 def find_lowest_integer(*args):
-    if not args:
+    if not 
         return None  # Return None if no arguments are provided
     lowest = float('inf')  # Initialize lowest with positive infinity
     for num in args:  # Iterate over arguments
